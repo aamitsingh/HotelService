@@ -34,6 +34,8 @@ Description: This service will do the following operation on the hotel inventory
     Purpose : It Validate JSON structure and check whether the mandatory (amount, dateFrom, dateTo) field for partner 
     offer is present or not.
 
+Inout JSON Data format: (Hotel) -[hasMany]-> (Partner) -[hasMany]-> (Price)
+
 ### Requirements:
 
 * Oracle Java Runtime 1.8 or higher
