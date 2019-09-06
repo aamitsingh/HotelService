@@ -1,13 +1,5 @@
 package com;
 
-/**
- * @author trivago N.V. <jobs@trivago.com>
- * @copyright 2017 trivago N.V.
- * @license proprietary
- */
-
-// package com.trivago.recruitment.service;
-
 import com.Exception.InvalidArgumentException;
 import com.dao.InventoryDao;
 import com.model.Hotel;
