@@ -1,0 +1,169 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "city": {
+      "type": "string"
+    },
+    "id": {
+      "type": "integer"
+    },
+    "hotels": {
+      "type": "object",
+      "properties": {
+        "number": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "adr": {
+              "type": "string"
+            },
+            "partners": {
+              "type": "object",
+              "properties": {
+                "number": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "prices": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "object",
+                          "properties": {
+                            "description": {
+                              "type": "string"
+                            },
+                            "amount": {
+                              "type": "integer"
+                            },
+                            "from": {
+                              "type": "string"
+                            },
+                            "to": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "from",
+                            "to"
+                          ]
+                        },
+                        "number": {
+                          "type": "object",
+                          "properties": {
+                            "description": {
+                              "type": "string"
+                            },
+                            "amount": {
+                              "type": "integer"
+                            },
+                            "from": {
+                              "type": "string"
+                            },
+                            "to": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "from",
+                            "to"
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "number": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "adr": {
+              "type": "string"
+            },
+            "partners": {
+              "type": "object",
+              "properties": {
+                "number": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "prices": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "object",
+                          "properties": {
+                            "description": {
+                              "type": "string"
+                            },
+                            "amount": {
+                              "type": "integer"
+                            },
+                            "from": {
+                              "type": "string"
+                            },
+                            "to": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "from",
+                            "to"
+                          ]
+                        },
+                        "number": {
+                          "type": "object",
+                          "properties": {
+                            "description": {
+                              "type": "string"
+                            },
+                            "amount": {
+                              "type": "integer"
+                            },
+                            "from": {
+                              "type": "string"
+                            },
+                            "to": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "amount",
+                            "from",
+                            "to"
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
